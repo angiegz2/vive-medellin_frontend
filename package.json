@@ -10,6 +10,7 @@
     "lint": "echo 'Lint temporalmente desactivado - proyecto funciona correctamente'",
     "lint:fix": "echo 'Lint fix temporalmente desactivado'",
     "preview": "vite preview",
+    "test": "jest --coverage",
     "type-check": "tsc --noEmit",
     "format": "prettier --write \"src/**/*.{ts,tsx,json,css,md}\"",
     "json-server": "json-server --watch src/data/db.json --port 3001 --delay 500",
