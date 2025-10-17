@@ -1,10 +1,21 @@
 export default {
-  testEnvironment: "jsdom",
+  testEnvironment: "jsdom", 
   transform: {
-    "^.+\\.[t|j]sx?$": "babel-jest"
+    "^.+\\.[tj]sx?$": "babel-jest",
   },
   moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
+
   collectCoverage: true,
+  collectCoverageFrom: [
+    "src/**/*.js",      
+    "!src/**/*.test.js" 
+  ],
+
   coverageDirectory: "coverage",
-  coverageReporters: ["lcov", "text"],
+  coverageReporters: ["html", "lcov", "text-summary"],
+
+  testMatch: [
+    "**/__tests__/**/*.js?(x)",
+    "**/?(*.)+(spec|test).[tj]s?(x)"
+  ],
 };
