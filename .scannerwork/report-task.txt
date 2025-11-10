@@ -1,7 +1,7 @@
 organization=udea
 projectKey=UdeA_vive-medellin_frontend
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.69264
+serverVersion=8.0.0.76411
 dashboardUrl=https://sonarcloud.io/dashboard?id=UdeA_vive-medellin_frontend
-ceTaskId=AZoty8F9nPH52KFLTa-N
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZoty8F9nPH52KFLTa-N
+ceTaskId=AZpuE1Cyj73_vN0pVicZ
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZpuE1Cyj73_vN0pVicZ
