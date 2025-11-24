@@ -1,5 +1,5 @@
 export default {
-  testEnvironment: "jsdom", 
+  testEnvironment: "jsdom",
   transform: {
     "^.+\\.[tj]sx?$": "babel-jest",
   },
@@ -7,8 +7,8 @@ export default {
 
   collectCoverage: true,
   collectCoverageFrom: [
-    "src/**/*.js",      
-    "!src/**/*.test.js" 
+    "src/**/*.{js,jsx,ts,tsx}",
+    "!src/**/*.{test,spec}.{js,jsx,ts,tsx}"
   ],
 
   coverageDirectory: "coverage",
